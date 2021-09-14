@@ -75,10 +75,10 @@ header .logo-text {
 
   .main-content {
     padding: 0px 45px;
+    padding-bottom: 45px;
   }
 
   .main-content .section-name {
-    
     font-size: 20px;
     font-weight: bold;
     color: #434851;
@@ -90,21 +90,25 @@ header .logo-text {
   }
 
   .task-done::before {
-    content: '\2611 ';
-    font-size: 24px;
+    content: '\2713 ';
+    font-size: 18px;
     color: #65C0A9;
+    border: 1px solid #65C0A9;
+    border-radius: 50%;
     
   }
 
   .task-cancelled::before {
     content: '\2715 ';
-    font-size: 24px;
+    font-size: 18px;
     color: #EA453A;
+    border: 1px solid #EA453A;
+    border-radius: 50%;
     
   }
 
   .task-done, .task-cancelled, .main-content .label {
-    margin-bottom: 10px;    
+    line-height: 35px;    
   }
 
   .main-content .label {
@@ -114,26 +118,26 @@ header .logo-text {
     padding: 7px 10px;
   }
 
-  #editorial {
+  .editorial {
     background-color: #45ABEA;
   }
 
-  #q1-goals {
+  .q1-goals {
     background-color: #9C72E4;
   }
 
-  #recruiting {
+  .recruiting {
     background-color: #63C0A9;
   }
 
-  #mobile {
+  .mobile {
     background-color: #F29E32;
   }
 
-  #website {
+  .website {
     background-color: #D863A1;
   }
 
-  #sales {
+  .sales {
     background-color: #AFC927;
   }
