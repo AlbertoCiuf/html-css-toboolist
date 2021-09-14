@@ -8,6 +8,7 @@
 
 body {
   background-color: #F6F8F9;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -19,6 +20,13 @@ body {
 
 .borderbot {
   border-bottom: 2px solid #F6F8F9;
+}
+
+.task-done::before {
+  content: '\2611 ';
+  font-size: 24px;
+  color: #65C0A9;
+  
 }
 
 /* HEADER */
@@ -34,8 +42,9 @@ header .logo {
 
 header .logo-text {
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  
   font-weight: 900;
+  vertical-align: middle;
 }
 
 /* MAIN */
@@ -46,10 +55,11 @@ header .logo-text {
 }
 
 .top-button {
-  padding: 8px;
+  padding: 5px 10px;
   margin-top: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
+  height: 25px;
   font-size: 12px;  
 }
 
@@ -67,3 +77,29 @@ header .logo-text {
 }
 
   /* MAIN CONTENT */
+
+  .main-content {
+    padding: 35px 45px;
+  }
+
+  .main-content .section-name {
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: #434851;
+  }
+
+  .section-name::before {
+    content: '\25BE  ';
+  }
+
+  .main-content .label {
+    font-size: 10px;
+    border-radius: 12px;
+    color: white;
+    padding: 7px 10px;
+  }
+
+  #editorial {
+    background-color: #45ABEA;
+  }
