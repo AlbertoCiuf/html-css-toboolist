@@ -55,7 +55,7 @@ header .logo-text {
   margin-bottom: 10px;
   border-radius: 5px;
   height: 25px;
-  font-size: 12px;  
+  font-size: 11px;  
 }
 
 #add-task {
@@ -103,8 +103,8 @@ header .logo-text {
     
   }
 
-  .task-done, .task-cancelled {
-    
+  .task-done, .task-cancelled, .main-content .label {
+    margin-bottom: 10px;    
   }
 
   .main-content .label {
@@ -128,4 +128,12 @@ header .logo-text {
 
   #mobile {
     background-color: #F29E32;
+  }
+
+  #website {
+    background-color: #D863A1;
+  }
+
+  #sales {
+    background-color: #AFC927;
   }
