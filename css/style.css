@@ -91,20 +91,20 @@ header .logo-text {
 
   .task-done::before {
     content: '\2713 ';
-    font-size: 18px;
+    font-size: 13px;
     color: #65C0A9;
     border: 1px solid #65C0A9;
     border-radius: 50%;
-    
+    padding: 2px;
   }
 
   .task-cancelled::before {
     content: '\2715 ';
-    font-size: 18px;
+    font-size: 13px;
     color: #EA453A;
     border: 1px solid #EA453A;
     border-radius: 50%;
-    
+    padding: 2px;
   }
 
   .task-done, .task-cancelled, .main-content .label {
